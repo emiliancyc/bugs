@@ -3,10 +3,12 @@
 
 int main(int argc, const char *argv[])
 {
-	const char* name = "Roman";
+	const char* name = "Emilian";
 
-	struct person* p = create(0);
+	struct person* p = create("Roman");
+	printf("Name: %s \n", p->get_name(p));
 	p->set_name(p, name);
+	//printf("%s",*(p->pd->name));
 	printf("Person name: %s\n", p->get_name(p));
 	destroy(p);
 

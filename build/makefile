@@ -13,6 +13,7 @@
 ##########        BEGIN User part            ##########
 ##########       You can change it           ##########
 #######################################################
+CC = gcc
 CFLAGS = -Wall -g
 LDFLAGS =
 SOURCES = ../src/main.c ../src/person.c
